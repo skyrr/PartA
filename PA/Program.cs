@@ -27,7 +27,7 @@ namespace PartA
             public static Task AsyncWork(string Item)
             {
                 Thread.Sleep(1000);
-                Console.WriteLine($"Item: {Item}");
+                Console.WriteLine($"Task: {Item}");
                 return Task.CompletedTask;
             }
 
